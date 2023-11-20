@@ -1,0 +1,341 @@
+@keyframes apariciónSimultánea {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+header  {
+    animation: apariciónSimultánea 1s ease-in-out;
+}
+.text {
+    animation: apariciónSimultánea 1.5s ease-in-out;
+}
+.nav  {
+    animation: apariciónSimultánea 2s ease-in-out;
+}
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.Inicio
+{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.registro
+{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.InicioSes
+{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.text
+{
+display: flex;
+flex-direction: column;
+height: 80vh;
+background-color: #146682;
+color: #20dad8;
+font-family: 'Croissant One', serif;
+font-size: large;
+box-shadow: 1px 1px 1px;
+}
+.text p{
+    font-size: xx-large;
+    box-shadow: 1px 1px 1px;
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: wrap;
+    align-items: baseline;
+    justify-content: center;
+    height: 20vh;
+    width: 100vw;
+    background-color:#123c50;
+   
+}
+.nav > div {
+    height: 10vh;
+    background-color:#1da2ba;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5%;
+    transition: transform 0.3s;
+    color: #20dad8;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+    box-shadow: 1px 1px 1px;
+    
+    
+
+}
+div{
+    
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    text-align: center;
+
+}
+.nav2
+{
+    display: flex;
+    flex-direction: wrap;
+    align-items:baseline;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    background-color: #cff1f7;
+}
+.nav2  div {
+    height: 10vh;
+    background-color:#86a1fb;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5%;
+    transition: transform 0.3s;
+
+}
+.nav3
+{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: wrap;
+    align-items:baseline;
+    justify-content: center;
+    background-color: #ffcaf4;
+}
+.nav3  div {
+    height: 10vh;
+    background-color:#d995fa;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5%;
+    transition: transform 0.3s;
+    color:#ffcaf4;
+
+}
+.Formulario {
+    background-color:#4d5f9d;
+    width: 100vw;
+    height: 80vh;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+    margin-right: 1%;
+    font-family: 'Croissant One', serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Formulario div {
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color:#1c2640;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    display: flex;
+    color:#cff1f7;
+    
+}
+.Formulario2 {
+    background-color:#6d6ec2;
+    width: 100vw;
+    height: 80vh;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+    margin-right: 1%;
+    font-family: 'Croissant One', serif;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+   
+
+}
+
+.Formulario2 div {
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #004566;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    display: flex;
+    color: #6d6ec2;
+    
+}
+@media (hover: hover) {
+    .nav > div:hover {
+        background: #121728;
+        transform: scale(1.1);
+    }
+}
+@media (hover: hover) {
+    .nav >div :hover {
+        
+        color: #00a9ec;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+@media (hover: hover) {
+    .nav2 > div:hover {
+        background: #98bac7;
+        transform: scale(1.1);
+    }
+}
+@media (hover: hover) {
+    .nav2 >div :hover {
+        
+        color: #003a5b;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+@media (hover: hover) {
+    .nav3 > div:hover {
+        background: #121728;
+        transform: scale(1.1);
+    }
+}
+@media (hover: hover) {
+    .nav3 >div :hover {
+        
+        color: #146682;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+header
+{
+background-color: #121728;
+height:10vh ;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+}
+header h1
+{
+    color:#146682;
+    text-align: center;
+    padding-top: 12px;
+}
+.img{
+    padding: 10px;
+    padding-top: 15px;
+    align-items: center;
+    text-align: center;
+
+}
+.miImagen {
+    width: 5vw;  /* Cambia esto al ancho que desees */
+    height: 10vh;  /* Esto mantendrá las proporciones de la imagen */
+}
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: wrap;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav > div {
+        width: 25%;
+        margin: 5px 0;
+    }
+
+    .nav2,
+    .nav3 {
+        height: auto;
+    }
+
+    .nav2 > div,
+    .nav3 > div {
+        width: 25%;
+        margin: 5px 0;
+    }
+
+    .Formulario,
+    .Formulario2 {
+        height: auto;
+        
+    }
+
+    .miImagen {
+        width: 40%; /* Ajusta el ancho según tus necesidades */
+        height: auto;
+    }
+    .text
+    {
+ 
+    height: auto;
+    }
+    .Inicio
+{
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: auto;
+    height: auto;
+    flex-direction: wrap;
+}
+header h1
+{
+    color:#146682;
+    text-align:center;
+    padding-left: 160px;
+   
+}
+}
+
