@@ -151,12 +151,7 @@ body{
     background-size: cover;
     
 }
-.cosmere
-{
-    background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://i.pinimg.com/originals/1d/1a/e3/1d1ae36b53ab0aca8295c5770878b697.jpg");
-    background-size: cover;
-    background-position: center;
-}
+
 
 .mundos2{
     
@@ -323,21 +318,6 @@ body{
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
-.cosmere :link {
-    color: #a4b3ff;
-    text-shadow: 1px 1px 1px;
-    box-shadow: 1px 1px 1px;
-}
-.cosmere :visited {
-    color:#a4b3ff;
-    text-shadow: 1px 1px 1px;
-    box-shadow: 1px 1px 1px;
-}
 
-.cosmere :active {
-    color: #a4b3ff;
-    text-shadow: 1px 1px 1px;
-    box-shadow: 1px 1px 1px;
-}
 
 
