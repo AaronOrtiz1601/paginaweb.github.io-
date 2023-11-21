@@ -338,12 +338,12 @@ input[type="submit"]
         flex-direction: wrap;
         height: auto;
         align-items: center;
-        justify-content: center;
+        justify-content: center; 
     }
 
     .nav > div {
         width: 25%;
-        margin: 5px 0;
+        margin: 10px ;
     }
 
     .nav2,
@@ -354,7 +354,7 @@ input[type="submit"]
     .nav2 > div,
     .nav3 > div {
         width: 25%;
-        margin: 5px 0;
+        margin: 10px;
     }
 
     .Formulario,
