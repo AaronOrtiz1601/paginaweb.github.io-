@@ -158,6 +158,125 @@ body{
         transform: scale(1.1);
     }
 }
+@media only screen and (max-width: 768px) {
+    .mundos {
+        flex-direction: wrap;
+        height:auto;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .mundos > div {
+        width: 30%;
+        margin: 3px ;
+       
+    }
+    
+    .miImagen {
+        width: 33%; 
+        height: auto;
+    }
+    .text
+    {
+ 
+    height: auto;
+    text-align: center;
+    }
+    .Inicio
+{
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: auto;
+    height: auto;
+    flex-direction: wrap;
+}
+header h1
+{
+    color:#146682;
+    text-align:center;
+    padding-left: 160px;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:scroll;
+    box-shadow: 1px 1px 1px;
+    overflow-x: hidden;
+    
+    
+
+}
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .mundos {
+        flex-direction: wrap;
+        height: auto;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .mundos > div {
+        width: 25%;
+        margin: 10px ;
+    }
+   
+    .miImagen {
+        width: 15%; 
+        height: auto;
+    }
+    .text
+    {
+ 
+    height: auto;
+    text-align: center;
+    
+    }
+    .Inicio
+{
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: auto;
+    height: auto;
+    flex-direction: wrap;
+}
+header h1
+{
+    color:#146682;
+    text-align:center;
+    padding-left: 160px;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:scroll;
+    box-shadow: 1px 1px 1px;
+    overflow-x: hidden;
+    
+    
+
+}
+
+
+}
 
 
 
