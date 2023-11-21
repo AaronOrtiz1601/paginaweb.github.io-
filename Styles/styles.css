@@ -435,7 +435,7 @@ body{
         margin: 10px;
     }
     .nav3{
-        flex-direction: wrap;
+        flex-direction: row;
         height: auto;
         align-items: center;
         justify-content: center; 
