@@ -136,11 +136,11 @@ div{
     flex-direction: wrap;
     align-items:baseline;
     justify-content: center;
-    background-color: #ffcaf4;
+    background-color:  #cff1f7;
 }
 .nav3  div {
     height: 10vh;
-    background-color:#d995fa;
+    background-color:#86a1fb;
     width: 10vw;
     display: flex;
     justify-content: center;
@@ -182,7 +182,7 @@ div{
     
 }
 .Formulario2 {
-    background-color:#6d6ec2;
+    background-color:#4d5f9d;
     width: 100vw;
     height: 80vh;
     text-shadow: 1px 1px 1px;
@@ -201,7 +201,7 @@ div{
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: #004566;
+    background-color: #1c2640;
     border-radius: 5px;
     text-align: center;
     transition: background-color 0.3s;
@@ -278,6 +278,61 @@ header h1
     width: 5vw;  /* Cambia esto al ancho que desees */
     height: 10vh;  /* Esto mantendrá las proporciones de la imagen */
 }
+input[type="submit"]
+    {
+        width: 100%; 
+        padding: 5px;
+        border: 1px solid #1c2640; 
+        border-radius: 5px; 
+        font-size: 16px;
+        margin-bottom: 5px;
+        background-color:#1c2640;
+    }
+     .Formulario [type="submit"]
+    {
+        width: 100%; 
+        padding: 5px;
+        border: 1px solid #1c2640; 
+        border-radius: 5px; 
+        font-size: 16px;
+        margin-bottom: 5px;
+        background-color:#1c2640;
+        color:#cff1f7 ;
+        font-family: 'Croissant One', serif;
+    }
+    .Formulario [type="reset"]
+    {
+        width: 100%; 
+        padding: 5px;
+        border: 1px solid #1c2640; 
+        border-radius: 5px; 
+        font-size: 16px;
+        margin-bottom: 5px;
+        background-color:#1c2640;
+        color:#cff1f7 ;
+        font-family: 'Croissant One', serif;
+    }
+    @media (hover: hover) {
+        input[type="submit"]:hover {
+            cursor: pointer;
+        }
+    }
+    input[type="reset"]
+    {
+        width: 100%; 
+        padding: 5px;
+        border: 1px solid #1c2640; 
+        border-radius: 5px; 
+        font-size: 16px;
+        margin-bottom: 5px;
+        background-color: #1c2640;
+        font-family: 'Croissant One', serif;
+    }
+    @media (hover: hover) {
+        input[type="reset"]:hover {
+            cursor: pointer;
+        }
+    }
 @media only screen and (max-width: 768px) {
     .nav {
         flex-direction: wrap;
