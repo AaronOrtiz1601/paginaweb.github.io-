@@ -394,36 +394,35 @@ body{
 }
 @media screen and (min-width: 768px) and (max-width: 1024px)
 {
-    .nav {
+    .mundos {
         flex-direction: wrap;
         height: auto;
         align-items: center;
         justify-content: center; 
     }
 
-    .nav > div {
-        width: 50%;
+    .mundos > div {
+        width: 25%;
         margin: 10px ;
     }
-
-    .nav2,
-    .nav3 {
+    .mundos2 {
+        flex-direction: wrap;
         height: auto;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
     }
 
-    .nav2 > div,
-    .nav3 > div {
-        width: 50%;
-        margin: 10px;
+    .mundos2 > div {
+        width: 25%;
+        margin: 10px ;
+        text-align: center;
     }
 
-    .Formulario,
-    .Formulario2 {
-        height: auto;
-        width: auto;
-        
-    }
+   
+   
 
+   
     .miImagen {
         width: 15%; 
         height: auto;
@@ -462,6 +461,8 @@ body{
     box-shadow: 1px 1px 1px;
     overflow-x: hidden;
     
+    
+
 }
 
 }
