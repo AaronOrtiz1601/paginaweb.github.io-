@@ -1,3 +1,19 @@
+@keyframes apariciónSimultánea {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+header  {
+    animation: apariciónSimultánea 1s ease-in-out;
+}
+.text {
+    animation: apariciónSimultánea 1.5s ease-in-out;
+}
 .Inicio
 {
     width: 100vw;

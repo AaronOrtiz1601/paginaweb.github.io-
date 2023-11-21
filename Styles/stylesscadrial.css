@@ -17,9 +17,7 @@ header  {
 .mundos {
     animation: apariciónSimultánea 1.5s ease-in-out;
 }
-.mundos2  {
-    animation: apariciónSimultánea 2s ease-in-out;
-}
+
 header
 {
 background-color: #121728;
