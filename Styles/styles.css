@@ -424,6 +424,10 @@ body{
     .nav2,
     .nav3 {
         height: auto;
+        flex-direction: wrap;
+        height: auto;
+        align-items: center;
+        justify-content: center; 
     }
 
     .nav2 > div,
