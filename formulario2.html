@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <div class="InicioSes">
+        <p id="InicioSes"></p>
+        <header>
+            <h1>Navega por el Cosmere</h1>
+            <div class="img">
+                <img class="miImagen" src="Images/logo.png" alt="">
+            </div>
+        </header>
+        <div class="Formulario2">
+            <h1>Datos personales</h1>
+            <form action="/action_page.php">
+                
+                <div>
+                    <label for="username">Correo:</label><br>
+                    <input type="text" id="username" name="username"  required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+                </div>
+                <div>
+                    <label for="pwd">Contraseña:</label><br>
+                    <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número, una letra mayúscula, una letra minúscula y al menos 8 o más caracteres"><br>
+                </div>
+                
+
+            </form>
+            <h1>Gracias por estar con nosotros</h1>
+            <img src="https://i.pinimg.com/originals/f2/c7/f6/f2c7f62b7cfa21d1e92088c855aa3bd4.gif">
+        </div>
+        <nav class="nav3">
+        <div><a href="index.html">vuelta al inicio</a></div>
+        <div><a href="./Paginaprinc.html">Iniciar sesión</a></div>
+        </nav>
+
+    </div>
+
+</body>
+</html>
