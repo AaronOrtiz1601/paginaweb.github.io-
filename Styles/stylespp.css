@@ -1,4 +1,3 @@
-
 @keyframes apariciónSimultánea {
     0% {
         opacity: 0;
@@ -9,85 +8,91 @@
         transform: translateY(0);
     }
 }
-header  {
+
+header {
     animation: apariciónSimultánea 0.25s ease-in-out;
 }
-.text h1{
+
+.text h1 {
     animation: apariciónSimultánea 0.5s ease-in-out;
 }
+
 .mundos {
     animation: apariciónSimultánea 1.5s ease-in-out;
 }
-.mundos2  {
+
+.mundos2 {
     animation: apariciónSimultánea 2s ease-in-out;
 }
-header
-{
-background-color: #121728;
-height:10vh ;
-justify-content: center;
-align-items: center;
-text-align: center;
-display: flex;
+
+header {
+    background-color: #121728;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
 }
-header h1
-{
-    color:#146682;
+
+header h1 {
+    color: #146682;
     text-align: center;
     padding-top: 12px;
     padding-bottom: 8px;
 }
-.img{
+
+.img {
     padding: 10px;
     padding-top: 12px;
     align-items: center;
     text-align: center;
+}
 
-}
 .miImagen {
-    width: 5vw;  /* Cambia esto al ancho que desees */
-    height: 10vh;  /* Esto mantendrá las proporciones de la imagen */
+    width: 5vw;
+    height: 10vh;
 }
-.inicio{
+
+.inicio {
     width: 100vw;
     height: 100vh;
     align-items: center;
     justify-content: center;
 }
-.text
-{
-display: flex;
-flex-direction: column;
-height: 100vh;
-background-color: #146682;
-color: #20dad8;
-font-family: 'Croissant One', serif;
-font-size: large;
-box-shadow: 1px 1px 1px;
-align-items: center;
-justify-content: flex-start;
-}
-body{
-    overflow-y:hidden;
-    overflow-x: hidden;
-    background-color:  #121728;
-}
-.mundos{
-    
 
+.text {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #146682;
+    color: #20dad8;
+    font-family: 'Croissant One', serif;
+    font-size: large;
+    box-shadow: 1px 1px 1px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #121728;
+}
+
+.mundos {
     display: flex;
     flex-direction: wrap;
     align-items: baseline;
     justify-content: center;
     height: auto;
     width: 100vw;
-    background-color:#123c50;
-   
+    background-color: #123c50;
 }
+
 .mundos > div {
     height: 36vh;
-    background-color:#1da2ba;
-    width:36vw;
+    background-color: #1da2ba;
+    width: 36vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,79 +102,63 @@ body{
     border-radius: 5%;
     transition: transform 0.3s;
     color: #002653;
-
 }
-.roshar{
+
+.roshar {
     background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://www.brandonsanderson.com/wp-content/uploads/2022/10/stormlight5.1.webp");
     background-size: cover;
     background-position: center;
 }
-.nalthis
-{
+
+.nalthis {
     background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://www.rantingdragon.com/wp-content/uploads/2010/10/warbreaker-feature.png");
     background-size: cover;
     background-position: center;
-    
 }
-.scadrial
-{
+
+.scadrial {
     background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://images6.alphacoders.com/836/836587.png");
     background-size: cover;
     background-position: center;
-    
-    
-    
 }
-.elantris
-{
+
+.elantris {
     background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://i.pinimg.com/originals/c5/88/98/c588982a42279639b2a44c6845dd522c.jpg");
     background-size: cover;
     background-position: center;
-    
-    
-    
 }
-.arena
-{
+
+.arena {
     background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://pbs.twimg.com/media/FkmkAmjWQAUGrjf.jpg");
     background-size: cover;
     background-position: center;
-    
-    
-    
 }
-.arcanum
-{
+
+.arcanum {
     background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://cosmere.es/wp-content/uploads/2017/10/retqt.png");
     background-size: cover;
     background-position: center;
-    
-    
 }
-.prj
-{
+
+.prj {
     background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://i.ytimg.com/vi/NuaD9uC9VAY/maxresdefault.jpg");
     background-size: cover;
-    
 }
 
-
-.mundos2{
-    
-
+.mundos2 {
     display: flex;
     flex-direction: wrap;
     align-items: baseline;
     justify-content: center;
     height: auto;
     width: 100vw;
-    background-color:#123c50;
-   
+    background-color: #123c50;
 }
+
 .mundos2 > div {
     height: 36vh;
-    background-color:#1da2ba;
-    width:36vw;
+    background-color: #1da2ba;
+    width: 36vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,41 +168,44 @@ body{
     border-radius: 5%;
     transition: transform 0.3s;
     color: #20dad8;
-
 }
+
 @media (hover: hover) {
     .mundos > div:hover {
         transform: scale(1.1);
     }
 }
+
 @media (hover: hover) {
-    .mundos >div :hover {
-        
+    .mundos > div:hover {
         color: #045170;
         transform: scale(1.1);
         cursor: pointer;
     }
 }
+
 @media (hover: hover) {
     .mundos2 > div:hover {
         transform: scale(1.1);
     }
 }
+
 @media (hover: hover) {
-    .mundos2 >div :hover {
-        
+    .mundos2 > div:hover {
         color: #00a9ec;
         transform: scale(1.1);
         cursor: pointer;
     }
 }
+
 .roshar :link {
     color: #15355c;
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .roshar :visited {
-    color:#15355c;
+    color: #15355c;
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
@@ -223,13 +215,15 @@ body{
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .nalthis :link {
     color: #a4b3ff;
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .nalthis :visited {
-    color:#a4b3ff;
+    color: #a4b3ff;
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
@@ -239,13 +233,15 @@ body{
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .scadrial :link {
     color: #a4b3ff;
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .scadrial :visited {
-    color:#a4b3ff;
+    color: #a4b3ff;
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
@@ -255,13 +251,15 @@ body{
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .elantris :link {
     color: #a4b3ff;
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .elantris :visited {
-    color:#a4b3ff;
+    color: #a4b3ff;
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
@@ -271,13 +269,15 @@ body{
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .arena :link {
     color: rgb(10, 29, 48);
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .arena :visited {
-    color:rgb(10, 29, 48);
+    color: rgb(10, 29, 48);
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
@@ -287,13 +287,15 @@ body{
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .arcanum :link {
     color: rgb(10, 29, 48);
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .arcanum :visited {
-    color:rgb(10, 29, 48);
+    color: rgb(10, 29, 48);
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
@@ -303,13 +305,15 @@ body{
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .prj :link {
     color: rgb(10, 29, 48);
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 .prj :visited {
-    color:rgb(10, 29, 48);
+    color: rgb(10, 29, 48);
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
@@ -319,98 +323,92 @@ body{
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+
 @media only screen and (max-width: 768px) {
     .mundos {
         flex-direction: wrap;
         height: auto;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
     }
 
     .mundos > div {
         width: 25%;
-        margin: 10px ;
+        margin: 10px;
     }
+
     .mundos2 {
         flex-direction: wrap;
         height: auto;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
         text-align: center;
     }
 
     .mundos2 > div {
         width: 25%;
-        margin: 10px ;
+        margin: 10px;
         text-align: center;
     }
 
-   
-   
-
-   
     .miImagen {
-        width: 33%; 
+        width: 33%;
         height: auto;
     }
-    .text
-    {
- 
-    height: auto;
-    text-align: center;
+
+    .text {
+        height: auto;
+        text-align: center;
     }
-    .Inicio
-{
-    width: auto;
-    height: auto;
-    align-items: center;
-    justify-content: center;
+
+    .Inicio {
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        width: auto;
+        height: auto;
+        flex-direction: wrap;
+    }
+
+    header h1 {
+        color: #146682;
+        text-align: center;
+        padding-left: 160px;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow-y: scroll;
+        box-shadow: 1px 1px 1px;
+        overflow-x: hidden;
+    }
 }
 
-header{
-    width: auto;
-    height: auto;
-    flex-direction: wrap;
-}
-header h1
-{
-    color:#146682;
-    text-align:center;
-    padding-left: 160px;
-   
-}
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    overflow-y:scroll;
-    box-shadow: 1px 1px 1px;
-    overflow-x: hidden;
-    
-    
-
-}
-
-}
-@media screen and (min-width: 768px) and (max-width: 1024px)
-{
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .mundos {
         flex-direction: wrap;
         height: auto;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
     }
 
     .mundos > div {
         width: 25%;
-        margin: 10px ;
+        margin: 10px;
     }
+
     .mundos2 {
         flex-direction: wrap;
         height: auto;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
         text-align: center;
     }
 
@@ -420,10 +418,6 @@ body{
         text-align: center;
     }
 
-   
-   
-
-   
     .miImagen {
         width: 15%; 
         height: auto;

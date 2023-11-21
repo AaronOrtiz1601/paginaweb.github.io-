@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/styles.css">
-    <title>Navega por el cosmere</title>
+    <title>Navega por el Cosmere</title>
 </head>
 <body>
-    
     <div class="registro">
         <p id="registro"></p>
         <header>
@@ -32,34 +31,29 @@
                     <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}[0-9]{3}[0-9]{3}"><br>
                 </div>
                 <div>
-                    <label for="username">Direccion:</label><br>
-                    <input type="text" id="fname" name="fname" required pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$"><br>
+                    <label for="username">Dirección:</label><br>
+                    <input type="text" id="username" name="username" required pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$"><br>
                 </div>
                 <div>
-                    <label for="username">Correo:</label><br>
-                    <input type="text" id="username" name="username"  required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+                    <label for="email">Correo:</label><br>
+                    <input type="text" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
                 </div>
                 <div>
                     <label for="pwd">Contraseña:</label><br>
                     <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número, una letra mayúscula, una letra minúscula y al menos 8 o más caracteres"><br>
                 </div>
-                
                 <div>
                     <input type="submit" value="Submit">
                 </div>
                 <div>
-                    <input type="reset" value="reset"><br>
+                    <input type="reset" value="Reset"><br>
                 </div>
-
             </form>
-            
         </div>
         <nav class="nav2">
-        <div><a href="index.html">vuelta al inicio</a></div>
-        <div><a href="index.html">Registrarse</a></div>
+            <div><a href="index.html">Vuelta al inicio</a></div>
+            <div><a href="index.html">Registrarse</a></div>
         </nav>
     </div>
-    
-
 </body>
 </html>
