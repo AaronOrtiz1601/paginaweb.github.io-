@@ -275,8 +275,8 @@ header h1
 
 }
 .miImagen {
-    width: 5vw;  /* Cambia esto al ancho que desees */
-    height: 10vh;  /* Esto mantendrá las proporciones de la imagen */
+    width: 5vw;  
+    height: 10vh;  
 }
 input[type="submit"]
     {
@@ -360,11 +360,12 @@ input[type="submit"]
     .Formulario,
     .Formulario2 {
         height: auto;
+        width: auto;
         
     }
 
     .miImagen {
-        width: 40%; /* Ajusta el ancho según tus necesidades */
+        width: 40%; 
         height: auto;
     }
     .text
@@ -392,5 +393,18 @@ header h1
     padding-left: 160px;
    
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:scroll;
+    box-shadow: 1px 1px 1px;
+    overflow-x: hidden;
+    
+    
+
+}
+
 }
 
