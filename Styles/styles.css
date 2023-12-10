@@ -357,12 +357,13 @@ input[type="reset"] {
     }
 
     .miImagen {
-        width: 33%;
+        width: 50%;
         height: auto;
     }
 
     .text {
         height: auto;
+        padding: 15px;
     }
 
     .Inicio {
@@ -375,13 +376,14 @@ input[type="reset"] {
     header {
         width: auto;
         height: auto;
-        flex-direction: wrap;
+        flex-direction: row;
+        padding-left: 150px;
     }
 
     header h1 {
         color: #146682;
         text-align: center;
-        padding-left: 160px;
+       
     }
 
     body {
