@@ -138,13 +138,13 @@ height: 30vh;
     }
 
     .mundos > div {
-        width: 40%;
+        width: 55%;
         margin: 5px ;
        
     }
     
     .miImagen {
-        width: 33%; 
+        width: 85%; 
         height: auto;
     }
     .text
@@ -170,7 +170,7 @@ header h1
 {
     color:#146682;
     text-align:center;
-    padding-left: 160px;
+    padding-left: 140px;
    
 }
 body{
