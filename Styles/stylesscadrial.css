@@ -42,8 +42,8 @@ header h1
 
 }
 .miImagen {
-    width: 5vw;  /* Cambia esto al ancho que desees */
-    height: 10vh;  /* Esto mantendrá las proporciones de la imagen */
+    width: 5vw; 
+    height: 10vh;  
 }
 .inicio{
     width: 100vw;
@@ -160,20 +160,20 @@ body{
 }
 @media only screen and (max-width: 768px) {
     .mundos {
-        flex-direction: wrap;
+        flex-direction: column;
         height:auto;
         align-items: center;
         justify-content: center; 
     }
 
     .mundos > div {
-        width: 30%;
+        width: 40%;
         margin: 3px ;
        
     }
     
     .miImagen {
-        width: 33%; 
+        width: 70%; 
         height: auto;
     }
     .text
@@ -181,6 +181,7 @@ body{
  
     height: auto;
     text-align: center;
+    padding: 10px;
     }
     .Inicio
 {
@@ -199,7 +200,7 @@ header h1
 {
     color:#146682;
     text-align:center;
-    padding-left: 160px;
+    padding-left: 150px;
    
 }
 body{
