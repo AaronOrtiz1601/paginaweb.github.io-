@@ -357,7 +357,7 @@ input[type="reset"] {
     }
 
     .miImagen {
-        width: 50%;
+        width: 70%;
         height: auto;
     }
 
@@ -377,7 +377,7 @@ input[type="reset"] {
         width: auto;
         height: auto;
         flex-direction: row;
-        padding-left: 150px;
+        padding-left: 130px;
     }
 
     header h1 {
