@@ -335,20 +335,21 @@ body {
 
 @media only screen and (max-width: 768px) {
     .mundos {
-        flex-direction: row;
+        flex-direction: column;
         height: auto;
         align-items: center;
         justify-content: center;
         overflow-y: scroll;
+        
     }
 
     .mundos > div {
-        width: 25%;
-        margin: 10px;
+        width: 70%;
+        margin: 8px;
     }
 
     .mundos2 {
-        flex-direction: row;
+        flex-direction: column;
         height: auto;
         align-items: center;
         justify-content: center;
@@ -357,13 +358,13 @@ body {
     }
 
     .mundos2 > div {
-        width: 25%;
+        width: 85%;
         margin: 10px;
         text-align: center;
     }
 
     .miImagen {
-        width: 33%;
+        width: 85%;
         height: auto;
     }
 
@@ -382,13 +383,13 @@ body {
     header {
         width: auto;
         height: auto;
-        flex-direction: wrap;
+        flex-direction: row;
     }
 
     header h1 {
         color: #146682;
         text-align: center;
-        padding-left: 160px;
+        
     }
 
     body {
