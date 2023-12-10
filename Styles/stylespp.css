@@ -112,6 +112,7 @@ body {
     color: #002653;
 }
 
+
 .roshar {
     background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://www.brandonsanderson.com/wp-content/uploads/2022/10/stormlight5.1.webp");
     background-size: cover;
@@ -334,10 +335,11 @@ body {
 
 @media only screen and (max-width: 768px) {
     .mundos {
-        flex-direction: wrap;
+        flex-direction: row;
         height: auto;
         align-items: center;
         justify-content: center;
+        overflow-y: scroll;
     }
 
     .mundos > div {
@@ -346,11 +348,12 @@ body {
     }
 
     .mundos2 {
-        flex-direction: wrap;
+        flex-direction: row;
         height: auto;
         align-items: center;
         justify-content: center;
         text-align: center;
+         overflow-y: scroll;
     }
 
     .mundos2 > div {
