@@ -89,53 +89,23 @@ function play() {
     contplay = 0;
   }
 }
-// Función para establecer una cookie con un tiempo de expiración en días
-function setCookie(cname, cvalue, exdays) {
-    const d = new Date();
-    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-    const expires = "expires=" + d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-
-// Función para obtener el valor de una cookie
-function getCookie(cname) {
-    const name = cname + "=";
-    const decodedCookie = decodeURIComponent(document.cookie);
-    const cookieArray = decodedCookie.split(';');
-    for (let i = 0; i < cookieArray.length; i++) {
-        let cookie = cookieArray[i].trim();
-        if (cookie.indexOf(name) === 0) {
-            return cookie.substring(name.length, cookie.length);
-        }
-    }
-    return "";
-}
-
-/// Función para manejar la elección de luna
+sol.addEventListener("click",luna);
 function luna() {
     if (contluna == 0) {
-        // Configuración para el modo luna
         body.style.background = "#121728";
         header.style.background = "#252850";
         texto.style.color = "#121728";
         sol.src = "https://cdn-icons-png.flaticon.com/128/2917/2917242.png";
         contluna++;
     } else {
-        // Configuración para el modo sol
         body.style.background = "";
         header.style.background = "";
         texto.style.color = "";
         sol.src = "https://cdn-icons-png.flaticon.com/128/3594/3594375.png";
         contluna++;
     }
-
-    // Guarda la elección en una cookie
-    setCookie("modoLuna", contluna, 7);
-
-    if (contluna == 2) {
+    if (contluna == 2)
+    {
         contluna = 0;
     }
 }
-
-// Asocia la función luna al evento click del elemento con ID "sol"
-sol.addEventListener("click", luna);
