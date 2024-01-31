@@ -111,7 +111,7 @@ function getCookie(cname) {
     return "";
 }
 
-// Función para manejar la elección de luna
+/// Función para manejar la elección de luna
 function luna() {
     if (contluna == 0) {
         // Configuración para el modo luna
@@ -137,14 +137,5 @@ function luna() {
     }
 }
 
-// Comprueba si hay una cookie al cargar la página y aplica la elección
-window.onload = function() {
-    const modoLunaCookie = getCookie("modoLuna");
-    if (modoLunaCookie !== "") {
-        contluna = parseInt(modoLunaCookie);
-        luna(); // Aplica la elección al cargar la página
-    }
-}
-
 // Asocia la función luna al evento click del elemento con ID "sol"
-sol.addEventListener("click",luna);
+sol.addEventListener("click", luna);
