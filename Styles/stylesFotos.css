@@ -1,0 +1,121 @@
+header {
+    background-color: #121728;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+header h1 {
+    color: #146682;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.img {
+    padding: 10px;
+    padding-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.miImagen {
+    width: 5vw;
+    height: 10vh;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+    box-shadow: 1px 1px 1px;
+    background-color: #146682;
+}
+.box {
+    width: 750px;
+    height: 500px;
+    border: 3px groove white;
+    background: #000;
+    margin: 50px;
+}
+.cuadro {
+    display: flex;
+    flex-direction: row;
+}
+.img2 {
+    padding: 10px;
+    padding-top: 250px;
+    align-items: center;
+    text-align: center;
+}
+.img3 {
+    padding: 10px;
+    padding-top: 250px;
+    align-items: center;
+    text-align: center;
+}
+.img4 {
+    padding: 10px;
+    padding-top: 500px;
+    align-items: center;
+    text-align: center;
+}
+
+
+        .image img{
+            width: 750px;
+            height: 500px;
+            
+        }
+    
+        .miBotonIz {
+            border: none;
+            background: none;
+            padding: 0;
+            cursor: pointer;
+            transition: transform 0.3s;
+          }
+          
+          .miBotonIz:hover {
+            transform: scale(1.1);
+          }
+          .miBotonDe {
+            border: none;
+            background: none;
+            padding: 0;
+            cursor: pointer;
+            transition: transform 0.3s;
+          }
+          
+          .miBotonDe:hover {
+            transform: scale(1.1);
+          }
+          
+        
+       .miBoton img{
+        width: 5vw;
+        height: 10vh;
+        border: none;
+        background: none;
+        padding: 0;
+        cursor: pointer;
+        transition: transform 0.3s;
+       }
+       .miBoton:hover {
+        transform: scale(1.1);
+      }
+       .miBoton4 img{
+        width: 4vw;
+        height: 8vh;
+        border: none;
+        background: none;
+        padding: 0;
+        cursor: pointer;
+        transition: transform 0.3s;
+       }
+       .miBoton4:hover {
+        transform: scale(1.1);
+      }
