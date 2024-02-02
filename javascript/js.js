@@ -94,18 +94,29 @@ function luna() {
     if (contluna == 0) {
         body.style.background = "#121728";
         header.style.background = "#252850";
-        texto.style.color = "#121728";
+        texto.style.color = " #c6b1c9";
         sol.src = "https://cdn-icons-png.flaticon.com/128/2917/2917242.png";
+        lunaActiva = !lunaActiva;
+        localStorage.setItem('lunaActiva',lunaActiva);
         contluna++;
     } else {
         body.style.background = "";
         header.style.background = "";
         texto.style.color = "";
         sol.src = "https://cdn-icons-png.flaticon.com/128/3594/3594375.png";
+        lunaActiva = !lunaActiva;
+        localStorage.setItem('lunaActiva',lunaActiva);
         contluna++;
     }
     if (contluna == 2)
     {
         contluna = 0;
+    }
+}
+let lunaActiva = false;
+window.onload = ()=> {
+    let saveMode = localStorage.getItem('lunaActiva');
+    if (saveMode === 'true'){
+        luna();
     }
 }
