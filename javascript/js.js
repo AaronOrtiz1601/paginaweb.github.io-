@@ -1,15 +1,17 @@
 let contador = 0;
 let contplay = 0;
 let contluna = 0;
-let header = document.querySelector('header')
+let header = document.querySelector('header');
 let texto = document.querySelector('h1');
 let imagen = document.getElementById('imagen');
-let Izquierda = document.querySelector('.miBotonIz'); 
-let Derecha = document.querySelector('.miBotonDe'); 
+let Izquierda = document.querySelector('.miBotonIz');
+let Derecha = document.querySelector('.miBotonDe');
 let Play = document.querySelector('.miBoton');
 let pause = document.getElementById('play');
 let sol = document.getElementById('luna');
 let body = document.querySelector('body');
+
+
 
 function cambioImagen() {
     contador++;
@@ -32,13 +34,14 @@ function cambioImagen() {
         imagen.src = "https://i.ytimg.com/vi/NuaD9uC9VAY/maxresdefault.jpg";
     }
     if (contador > 6) {
-        contador = -1; 
+        contador = -1;
     }
     if (contador == 6) {
         imagen.src = "https://wallpapercave.com/wp/wp7574435.jpg";
         contador = contador - 7;
     }
 }
+
 function Inverso() {
     contador--;
     if (contador == 0) {
@@ -60,36 +63,35 @@ function Inverso() {
     if (contador == 5) {
         imagen.src = "https://i.ytimg.com/vi/NuaD9uC9VAY/maxresdefault.jpg";
     }
-    
     if (contador < 0) {
-        contador = 7; 
+        contador = 7;
     }
     if (contador == 6) {
         imagen.src = "https://wallpapercave.com/wp/wp7574435.jpg";
     }
 }
 
-Derecha.addEventListener("click", cambioImagen); 
-Izquierda.addEventListener("click", Inverso); 
+Derecha.addEventListener("click", cambioImagen);
+Izquierda.addEventListener("click", Inverso);
 let intervalo;
-Play.addEventListener("click",play);
+Play.addEventListener("click", play);
 
 function play() {
-  if (contplay == 0) {
-    intervalo = setInterval(cambioImagen, 5000);
-    pause.src = "https://cdn-icons-png.flaticon.com/128/6326/6326330.png";
-    contplay++;
-  } else {
-    clearInterval(intervalo);
-    pause.src = "https://cdn-icons-png.flaticon.com/128/4980/4980096.png";
-    contplay++;
-  }
-  if (contplay == 2)
-  {
-    contplay = 0;
-  }
+    if (contplay == 0) {
+        intervalo = setInterval(cambioImagen, 5000);
+        pause.src = "https://cdn-icons-png.flaticon.com/128/6326/6326330.png";
+        contplay++;
+    } else {
+        clearInterval(intervalo);
+        pause.src = "https://cdn-icons-png.flaticon.com/128/4980/4980096.png";
+        contplay++;
+    }
+    if (contplay == 2) {
+        contplay = 0;
+    }
 }
-sol.addEventListener("click",luna);
+
+sol.addEventListener("click", luna);
 function luna() {
     if (contluna == 0) {
         body.style.background = "#121728";
@@ -97,7 +99,7 @@ function luna() {
         texto.style.color = " #c6b1c9";
         sol.src = "https://cdn-icons-png.flaticon.com/128/2917/2917242.png";
         lunaActiva = !lunaActiva;
-        localStorage.setItem('lunaActiva',lunaActiva);
+        localStorage.setItem('lunaActiva', lunaActiva);
         contluna++;
     } else {
         body.style.background = "";
@@ -105,18 +107,28 @@ function luna() {
         texto.style.color = "";
         sol.src = "https://cdn-icons-png.flaticon.com/128/3594/3594375.png";
         lunaActiva = !lunaActiva;
-        localStorage.setItem('lunaActiva',lunaActiva);
+        localStorage.setItem('lunaActiva', lunaActiva);
         contluna++;
     }
-    if (contluna == 2)
-    {
+    if (contluna == 2) {
         contluna = 0;
     }
 }
 let lunaActiva = false;
-window.onload = ()=> {
+window.onload = () => {
     let saveMode = localStorage.getItem('lunaActiva');
-    if (saveMode === 'true'){
+    if (saveMode === 'true') {
         luna();
     }
-}
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.onload = function() {
+        if (this.status == 200) {
+            document.getElementById("mensajeAjax").innerHTML = this.responseText;
+        }
+    }
+
+    xhr.open("GET", "txt/mensaje.txt", true);
+    xhr.send();
+};

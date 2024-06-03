@@ -1,4 +1,0 @@
-<div>
-		<h2> El inicio de sesión esta en mantenimiento , porfavor intente iniciar sesión mas en otro momento </h2>
-		
-</div>

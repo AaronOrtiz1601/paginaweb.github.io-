@@ -1,0 +1,3 @@
+<div>
+        <h2> Pronto se añadirán nuevas imágenes. </h2>
+</div>

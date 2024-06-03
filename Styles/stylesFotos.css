@@ -8,6 +8,14 @@ header {
     width: 100%;
 }
 
+
+div {
+   
+    align-items: column;
+    text-align: center;
+    color: #121728;
+}
+
 header h1 {
     color: #146682;
     text-align: center;
@@ -15,7 +23,7 @@ header h1 {
 }
 
 .img {
-    padding: 10px;
+    padding: 5px;
     padding-top: 15px;
     align-items: center;
     text-align: center;
@@ -39,7 +47,7 @@ body {
     height: 500px;
     border: 3px groove white;
     background: #000;
-    margin: 50px;
+    margin: 20px;
 }
 .cuadro {
     display: flex;
