@@ -122,13 +122,13 @@ window.onload = () => {
     }
 
     var xhr = new XMLHttpRequest();
-
+    xhr.open("GET", "txt/mensaje.txt", true);
     xhr.onload = function() {
         if (this.status == 200) {
             document.getElementById("mensajeAjax").innerHTML = this.responseText;
         }
     }
 
-    xhr.open("GET", "txt/mensaje.txt", true);
+    
     xhr.send();
 };
